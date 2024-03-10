@@ -1,6 +1,6 @@
 {
   "name": "tic-tac-toe",
-  "private": true,
+  "private": false,
   "homepage": "https://wunsun5.github.io/tic-tac-toe",
   "version": "0.0.0",
   "type": "module",
