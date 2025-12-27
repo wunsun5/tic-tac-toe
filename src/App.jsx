@@ -28,7 +28,7 @@ export default function App() {
   }
 
   return (
-    <>
+    <div>
       <div className="status">{status}</div>
       <div className="board">
         <Square value={squares[0]} onSquareClick={() => handleClick(0)} />
@@ -42,7 +42,7 @@ export default function App() {
         <Square value={squares[8]} onSquareClick={() => handleClick(8)} />
       </div>
       <Button />
-    </>
+    </div>
   )
 }
 
